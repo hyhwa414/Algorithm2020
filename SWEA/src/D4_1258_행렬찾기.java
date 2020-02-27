@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class D4_1258_FindMatrix {
+public class D4_1258_행렬찾기 {
 	static int n;
 	static int[][] map;
 	static int matrixCount;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class D3_1873_BattleField {
+public class D3_1873_상호의배틀필드 {
 	static int carX;
 	static int carY;
 	static char[][] map;

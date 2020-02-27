@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class D4_1861_SquareRoom {
+public class D4_1861_정사각형방 {
 	static boolean[][] visited;
 	static int N;
 	static int[][] room;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class D4_4408_BackToRoom {
+public class D4_4408_자기방으로돌아가기 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
