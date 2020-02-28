@@ -7,23 +7,62 @@ public class FHSL_BruteForce_L2_숫자야구 {
 		System.out.println("result1 : " + result1);
 	}
 	
-	// 세 자리 수, 스트라이크의 수, 볼의 수
-	// 숫자는 맞지만, 위치가 틀렸을때는 볼
-	// 숫자와 위치가 모두 맞을때는 스트라이크
 	public static int solution(int[][] baseball) {
-		int answer = 0; // 가능한 답의 개수
+		int answer = 0;
 		
-		for(int i = 111; i <= 999; i++) {
+		for(int i = 123; i <= 987; i++) {
 			String s = Integer.toString(i);
 			
-			// strike 확인
-			int strikeCount = 0;
+			if(isOverlapped(s) || hasZero(s)) continue;
+	
+			String flag = "";
 			for(int j = 0; j < baseball.length; j++) {
 				String num = Integer.toString(baseball[j][0]);
+				int strike = 0;
+				int ball = 0;
+				
+				if(num.charAt(0) == s.charAt(0)) {
+					strike++;
+				} else if(num.charAt(0) == s.charAt(1) || num.charAt(0) == s.charAt(2)) {
+					ball++;
+				}
+				
+				if(num.charAt(1) == s.charAt(1)) {
+					strike++;
+				} else if(num.charAt(1) == s.charAt(0) || num.charAt(1) == s.charAt(2)) {
+					ball++;
+				}
+				
+				if(num.charAt(2) == s.charAt(2)) {
+					strike++;
+				} else if(num.charAt(2) == s.charAt(0) || num.charAt(2) == s.charAt(1)) {
+					ball++;
+				}
+				
+				if(strike == baseball[j][1] && ball == baseball[j][2])
+					flag += "T";
+				else 
+					flag += "F";
 			}
-			// ball 확인
+			if(!flag.contains("F"))
+				answer++;
 		}
 		
 		return answer;
+	}
+
+	public static boolean hasZero(String s) {
+		if(s.charAt(0) == '0' || s.charAt(1) == '0' ||
+				s.charAt(2) == '0')
+			return true;
+		return false;
+	}
+
+	public static boolean isOverlapped(String s) {
+		if((s.charAt(0) == s.charAt(1)) || 
+				(s.charAt(0) == s.charAt(2)) ||
+				(s.charAt(1) == s.charAt(2)))
+			return true;
+		return false;
 	}
 }
