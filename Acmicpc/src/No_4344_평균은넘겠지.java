@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO4344 {
+public class No_4344_평균은넘겠지 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		

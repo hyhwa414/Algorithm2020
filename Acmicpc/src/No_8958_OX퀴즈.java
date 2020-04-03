@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO8958 {
+public class No_8958_OX퀴즈 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 	

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO1120 {
+public class No_1120_문자열 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

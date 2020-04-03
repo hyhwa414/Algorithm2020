@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO1110 {
+public class No_1110_더하기사이클 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		

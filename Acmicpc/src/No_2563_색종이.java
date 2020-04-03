@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO2563 {
+public class No_2563_색종이 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO9095 {
+public class No_9095_123더하기 {
 	static int count;
 	
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NO6603 {
+public class No_6603_로또 {
 	static int[] stack = new int[15];
 	static int top = -1;
 	static int[] num;
