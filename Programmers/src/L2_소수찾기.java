@@ -1,6 +1,6 @@
 import java.util.StringTokenizer;
 
-public class FHSL_BruteForce_L2_소수찾기 {
+public class L2_소수찾기 {
 	public static char[] arr;
 	public static char[] trr;
 	public static StringBuilder sb;

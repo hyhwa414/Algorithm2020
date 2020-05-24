@@ -1,5 +1,5 @@
 
-public class FHSL_DFSBFS_L2_타겟넘버 {	
+public class L2_타겟넘버 {	
 	public static void main(String[] args) {
 		int[] num = {1, 1, 1, 1, 1};
 		int target = 3;

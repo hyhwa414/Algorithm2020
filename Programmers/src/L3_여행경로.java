@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Arrays;
 
-public class FHSL_DFSBFS_L3_여행경로 {
+public class L3_여행경로 {
 	static boolean[] visited;
 	static List<String> list;
 	static String route;

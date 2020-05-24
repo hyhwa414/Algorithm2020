@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class FHSM_Hash_L1_완주하지못한선수 {
+public class L1_완주하지못한선수 {
 	public static void main(String[] args) {
 		String[] p1 = {"leo", "kiki", "eden"};
 		String[] c1 = {"eden", "kiki"};

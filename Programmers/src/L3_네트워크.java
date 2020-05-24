@@ -1,5 +1,5 @@
 
-public class FHSL_DFSBFS_L3_네트워크 {
+public class L3_네트워크 {
 	static boolean[] visited;
 	static int[][] arr;
 	public static void main(String[] args) {

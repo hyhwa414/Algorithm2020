@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FHSL_BruteForce_L2_숫자야구 {
+public class L2_숫자야구 {
 	public static void main(String[] args) {
 		int[][] input1 = {{123,1,1}, {356,1,0}, {327,2,0}, {489,0,1}};
 		int result1 = solution(input1);

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FHSL_BruteForce_L2_카펫 {
+public class L2_카펫 {
 	public static void main(String[] args) {
 		int[] result1 = solution(10,2);
 		System.out.println(Arrays.toString(result1));

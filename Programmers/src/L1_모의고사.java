@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FHSL_BruteForce_L1_MockTest {
+public class L1_모의고사 {
 	public static void main(String[] args) {
 		int[] answers1 = {1, 2, 3, 4, 5};
 		int[] answer1 = solution(answers1);
